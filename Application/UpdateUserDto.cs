@@ -1,9 +1,8 @@
 ﻿namespace LifeTrackr.API.Application
 {
-    public class UserDto
+    public class UpdateUserDto
     {
-        public string Email { get; set; } = default!;
+        public int Id { get; set; }
         public string FullName { get; set; } = default!;
-        
     }
 }
